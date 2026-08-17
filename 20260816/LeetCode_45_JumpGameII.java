@@ -6,10 +6,7 @@ class Solution {
 		int range = 0;
 		int farthest = 0;
 
-		for (int i = 0; i < nums.length; i++) {
-			if (i == nums.length - 1) {
-				return jumps;
-			}
+		for (int i = 0; i < nums.length - 1; i++) {
 
 			farthest = Math.max(farthest, nums[i] + i);
 
