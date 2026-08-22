@@ -1,0 +1,25 @@
+{
+  "transactions": [
+    {
+      "id": "t4",
+      "user_id": "",
+      "ts": "2025-09-29",
+      "amount": 20,
+      "category": "other"
+    },
+    {
+      "id": "t5",
+      "user_id": "u1",
+      "ts": "2025-09-29",
+      "amount": -10,
+      "category": "refund"
+    },
+    {
+      "id": "t6",
+      "user_id": "u4",
+      "ts": "2025-10-02",
+      "amount": 4000,
+      "category": "travel"
+    }
+  ]
+}
